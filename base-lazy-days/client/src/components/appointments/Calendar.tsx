@@ -19,7 +19,7 @@ export function Calendar() {
 
   const { appointments, monthYear, updateMonthYear, showAll, setShowAll } =
     useAppointments();
-
+  // console.log(showAll);
   return (
     <Box>
       <HStack mt={10} spacing={8} justify="center">

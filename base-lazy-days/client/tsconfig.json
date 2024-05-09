@@ -36,5 +36,13 @@
     "downlevelIteration": true,
     "strict": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "node_modules/@types"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "node_modules/@types",
+    "src/react-query/queryClient.ts",
+    "src/components/treatments/hooks/useTreatments.jsx",
+    "src/components/treatments/hooks/useTreatments.ts",
+    "src/components/treatments/Treatments.tsx"
+  ]
 }

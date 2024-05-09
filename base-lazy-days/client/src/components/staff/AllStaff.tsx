@@ -6,7 +6,7 @@ import { Staff } from "./Staff";
 
 export function AllStaff() {
   // replace with data from React Query
-  const { staff, filter, setFilter } = useStaff();
+  const { data: staff, filter, setFilter } = useStaff();
   const treatments = useTreatments();
 
   return (
