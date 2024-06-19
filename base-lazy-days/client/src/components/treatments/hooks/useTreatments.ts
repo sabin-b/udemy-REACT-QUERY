@@ -34,7 +34,6 @@ export function useTreatments(): Treatment[] | undefined {
 
 export function usePreFetchTreatments(): void {
   const queryClient = useQueryClient();
-
   useEffect(() => {
     queryClient.prefetchQuery({
       queryKey: [queryKeys.treatments],
